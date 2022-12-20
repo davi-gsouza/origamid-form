@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Origamid Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./assets/title.svg" alt="" />
+        <img src="./assets/menu.svg" alt="" />
+      </header>
+
+      <div class="container-form">
+        <form action="">
+          <div class="item">
+            <label for="nome">Nome</label> <br />
+            <input type="text" id="nome" class="campo" />
+          </div>
+
+          <div class="item">
+            <label for="email">Email</label> <br />
+            <input type="email" id="email" class="campo" />
+          </div>
+
+          <div class="item">
+            <label for="senha">Senha</label> <br />
+            <input type="password" id="senha" class="campo" />
+          </div>
+
+          <div class="item side-by-side">
+            <div>
+              <label for="cep">CEP</label> <br />
+              <input type="number" id="cep" class="campo" />
+            </div>
+
+            <div>
+              <label for="numero">Número</label> <br />
+              <input type="number" id="numero" class="campo" />
+            </div>
+          </div>
+
+          <div class="item">
+            <label for="rua">Rua</label> <br />
+            <input type="text" id="rua" class="campo" />
+          </div>
+
+          <div class="item">
+            <label for="cidade">Cidade</label> <br />
+            <input type="text" id="cidade" class="campo" />
+          </div>
+
+          <div class="item checkbox">
+            <input type="checkbox" id="check" />
+            <label for="check">Concordo com os Termos e Condições</label>
+          </div>
+
+          <button>Cadastrar Conta</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
